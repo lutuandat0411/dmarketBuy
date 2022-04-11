@@ -1,0 +1,19 @@
+{
+  "name": "trade-caigicungduoc",
+  "version": "0.1.0",
+  "license": "MIT",
+  "main": "./autoBuy",
+  "type": "module",
+  "dependencies": {
+    "lodash": "^4.17.21",
+    "node-fetch": "^2.6.1",
+    "pm2": "^5.1.2",
+    "tweetnacl": "^1.0.1",
+    "worker-thread": "^1.1.0"
+  },
+  "scripts": {
+    "start": "pm2 start autoBuy.js && pm2 monit",
+    "logs": "pm2 monit",
+    "exit": "pm2 delete all"
+  }
+}
