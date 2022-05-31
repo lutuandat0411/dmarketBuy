@@ -1,6 +1,2 @@
-# JS Signature Builder
-- Install / configure NODE.JS locally https://nodejs.org/en/download/  (the configuration process may differ for different operation systems)
-- Set up NPM package manager https://docs.npmjs.com/getting-started  (the configuration process may differ for different operation systems)
-- run *npm i* in terminal in *signature-builder/js* folder
-- run *node targetCreator.js* in terminal in *signature-builder/js* folder
-- check the logs / created target on *https://dmarket.com/*
+# Project API called from Dmarket
+- Check the API at *https://docs.dmarket.com/v1/swagger.html?_gl=1*6b2i9k*_ga*MTM1MDI2NTUzNy4xNjM4MjkxNjU3*_ga_J73817TZWR*MTY1NDAzODQ4NC4xOC4xLjE2NTQwMzg1MjQuMjA.*
