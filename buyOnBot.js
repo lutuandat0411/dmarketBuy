@@ -203,7 +203,7 @@ async function buyItem() {
             amount: itemFound.price.USD,
             currency: 'USD'
           },
-          type: 'p2p'
+          type: 'dmarket'
         }
       ]
     });
