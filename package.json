@@ -5,9 +5,11 @@
   "main": "./buyOnBot",
   "type": "module",
   "dependencies": {
+    "axios": "^0.27.2",
     "lodash": "^4.17.21",
-    "node-fetch": "^2.6.1",
+    "node-fetch": "^3.2.6",
     "pm2": "^5.1.2",
+    "qs": "^6.10.5",
     "tweetnacl": "^1.0.1",
     "worker-thread": "^1.1.0"
   },
